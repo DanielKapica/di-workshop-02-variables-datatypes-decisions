@@ -56,13 +56,13 @@ happens.
 
 | Line                | Expected Result | Actual Result | Were you right? Why? |
 | ------------------- | --------------- | ------------- | -------------------- |
-| `2 + 2`             |                 |               |                      |
-| `5 - 3`             |                 |               |                      |
-| `3 * 6`             |                 |               |                      |
-| `10 / 2`            |                 |               |                      |
-| `5 / 2`             |                 |               |                      |
-| `5.0 / 2`           |                 |               |                      |
-| `“hello” + “world”` |                 |               |                      |
+| `2 + 2`             |        4        |        4      | Yes + is addition    |
+| `5 - 3`             |        2        |        2      | Yes - is subtraction |
+| `3 * 6`             |        18       |        18     | Yes * is multiplying |
+| `10 / 2`            |        5        |        5      | Yes / is division    |
+| `5 / 2`             |        2.5      |        2.5    | Yes / is division    |
+| `5.0 / 2`           |        2.5      |        2.5    | Yes / is division    |
+| `“hello” + “world”` |   "helloworld"  |  "helloworld" | Yes, Concatenation   |
 | `“Hello” - “world”` |                 |               |                      |
 | `3 + “3”`           |                 |               |                      |
 | `typeof “hello”`    |                 |               |                      |
