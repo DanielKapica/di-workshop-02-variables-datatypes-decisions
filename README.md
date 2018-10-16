@@ -63,23 +63,23 @@ happens.
 | `5 / 2`             |        2.5      |        2.5    | Yes / is division    |
 | `5.0 / 2`           |        2.5      |        2.5    | Yes / is division    |
 | `“hello” + “world”` |   "helloworld"  |  "helloworld" | Yes, Concatenation   |
-| `“Hello” - “world”` |                 |               |                      |
-| `3 + “3”`           |                 |               |                      |
-| `typeof “hello”`    |                 |               |                      |
-| `typeof 13`         |                 |               |                      |
-| `typeof true`       |                 |               |                      |
-| `typeof 3 + 5`      |                 |               |                      |
-| `typeof (3 + 5)`    |                 |               |                      |
-| `typeof (3 + “3”)`  |                 |               |                      |
-| `3 == 3`            |                 |               |                      |
-| `3 == 2`            |                 |               |                      |
-| `typeof (3 == 3)`   |                 |               |                      |
-| `3 != 3`            |                 |               |                      |
-| `3 != 2`            |                 |               |                      |
-| `3 == 1 + 2`        |                 |               |                      |
-| `3 == 2 + 2`        |                 |               |                      |
-| `3 < 2 + 2`         |                 |               |                      |
-| `3 > 2 + 2`         |                 |               |                      |
+| `“Hello” - “world”` |NaN              |NaN            |Yes, cannot subtract letters|
+| `3 + “3”`           ||||
+| `typeof “hello”`    ||||
+| `typeof 13`         ||||
+| `typeof true`       ||||
+| `typeof 3 + 5`      ||||
+| `typeof (3 + 5)`    ||||
+| `typeof (3 + “3”)`  ||||
+| `3 == 3`            ||||
+| `3 == 2`            ||||
+| `typeof (3 == 3)`   ||||
+| `3 != 3`            ||||
+| `3 != 2`            ||||
+| `3 == 1 + 2`        ||||
+| `3 == 2 + 2`        ||||
+| `3 < 2 + 2`         ||||
+| `3 > 2 + 2`         ||||
 
 ## Task 2
 
