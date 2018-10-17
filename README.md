@@ -65,15 +65,15 @@ happens.
 | `“hello” + “world”` |   "helloworld"  |  "helloworld" | Yes, Concatenation              |
 | `“Hello” - “world”` |        NaN      |     NaN       | Yes, cannot subtract letters    |
 | `3 + “3”`           |        "33"     |     "33"      | Yes, both been turned to string |
-| `typeof “hello”`    ||||
-| `typeof 13`         ||||
-| `typeof true`       ||||
-| `typeof 3 + 5`      ||||
-| `typeof (3 + 5)`    ||||
-| `typeof (3 + “3”)`  ||||
-| `3 == 3`            ||||
-| `3 == 2`            ||||
-| `typeof (3 == 3)`   ||||
+| `typeof “hello”`    |   "string"      |   "string"    | Yes, "hello" is a string        |
+| `typeof 13`         |   "integer"     |    "integer"  | Yes, 13 is a integer            |
+| `typeof true`       |   "boolean"     |   "boolean"   | Yes, true is a boolean          |
+| `typeof 3 + 5`      |   "integer"     |   "number5"   | No, it adds 5 to the data type  |
+| `typeof (3 + 5)`    |   "integer"     |   "number"    | Yes, 8 is an integer/number     |
+| `typeof (3 + “3”)`  |   "string"      |   "string"    | Yes, it turns into a string     |
+| `3 == 3`            |    "true"       |   "true"      | Yes, 3 is the same as 3         |
+| `3 == 2`            |    "false"      |   "false"     | Yes, 3 isn't the same as 2      |
+| `typeof (3 == 3)`   |    "boolean"    |   "boolean"   | Yes, 3==3 returns True, a bool  |
 | `3 != 3`            ||||
 | `3 != 2`            ||||
 | `3 == 1 + 2`        ||||
